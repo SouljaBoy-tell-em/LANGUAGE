@@ -1,0 +1,23 @@
+def main ();
+	
+	b = 1;
+	c = 4;
+	d = 4;
+
+	a = c * c - 4 * b * d;
+
+	if (a > 0)
+
+		n = ((0 - c) + sqrt(a)) / (2 * b);
+		e = n;
+		o = ((0 - c) - sqrt(a)) / (2 * b);
+		f = o;
+	end;
+
+	if (a == 0)
+
+		n = (0 - c) / (2 * b);
+	end;
+
+end;
+out;

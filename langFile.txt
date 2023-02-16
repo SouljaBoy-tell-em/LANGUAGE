@@ -1,0 +1,13 @@
+def main ();
+	
+	a = 1;
+	b = 1;
+	if (b < 5)
+		a = a + 1;
+		b = a * b;
+	end;
+
+	print (b);
+
+end;
+out;

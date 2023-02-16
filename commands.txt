@@ -1,0 +1,30 @@
+push 1
+pop rax
+push 1
+pop rbx
+push rbx
+copy
+pop rbx
+push 5
+start1:
+push rax
+copy
+pop rax
+push 1
+add
+pop rax
+push rax
+copy
+pop rax
+push rbx
+copy
+pop rbx
+mul
+pop rbx
+push 5
+jb :start1
+push rbx
+copy
+pop rbx
+print
+hlt

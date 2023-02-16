@@ -1,0 +1,17 @@
+push 1
+pop rbx
+push 1
+pop rax
+start:
+	push 1
+	push rax
+	add
+	copy
+	pop rax
+	push rbx
+	mul
+	pop rbx
+	push 6
+jbe :start
+push rbx
+hlt

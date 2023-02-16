@@ -1,0 +1,14 @@
+Node * STARTLANG (Node ** head, int * index, Node * node);
+Node * LINKFUNCTIONS (Node ** head, int * index, Node * node);
+Node * LINK (Node ** head, int * index, Node * node);
+Node * CREATEVARIABLE (Node ** head, int * index, Node * node);
+Node * ADDANDSUB (Node ** head, int * index, Node * node);
+Node * MULANDDIV (Node ** head, int * index, Node * node);
+Node * POW (Node ** head, int * index, Node * node);
+Node * BRACKETSANDNUMBERANDVARIABLEANDFUNCTIONANDCONDITION (Node ** head, int * index, Node * node);
+Node * GETNUMBER (Node ** head, int * index, Node * node);
+Node * INITVARIABLE (Node ** head, int * index, Node * node);
+Node * CONDITIONS (Node ** head, int * index, Node * node);
+Node * FUNCTIONS (Node ** head, int * index, Node * node);
+Node * BODYFUNCTIONS (Node ** head, int * index, Node * node);
+Node * GETPARAMS (Node ** head, int * index, Node * node);
